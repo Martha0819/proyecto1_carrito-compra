@@ -1,0 +1,46 @@
+body {
+    background-color: #e2cbdc;
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+}
+form input[type="submit"]{
+    border:none;
+    background:#ea4c88;
+    color:#FFFFFF;
+    font-size:14px;
+    padding:0.7em 1.2em;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+form input{
+    border:none;
+    margin:0;
+}
+
+form .input-row{
+    margin:2em 0;
+    overflow:hidden;
+}
+form input[type="submit"]:hover {
+    background:#c62a65;
+    opacity: 0.8;
+}
+
+form input[type="text"],form input[type="password"] {
+    padding:0.8em 0.8em 0.8em 0;
+    font-size:15px;
+    color:#c2c2c2;
+    width:275px;
+}
+
+form input[type="text"]:focus,form input[type="password"]:focus {
+    outline:0;
+}
+

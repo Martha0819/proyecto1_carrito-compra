@@ -1,0 +1,121 @@
+:root {
+  --page-header-bgColor: #242e42;
+  --page-header-bgColor-hover: #1d2636;
+  --page-header-txtColor: #FFFFFF;
+  --page-header-headingColor: #FFB6C1;
+  --page-header-width: 220px;
+  --page-content-bgColor: #f0f1f6;
+  --page-content-txtColor: #171616;
+  --page-content-blockColor: #fff;
+  --border-radius: 4px;
+ 
+}
+
+.container {
+  width: 70%;
+  margin: 15px auto;
+}
+body {
+  text-align: center;
+  
+}
+h2 {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  font-size: 30px;
+  margin: 11000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+button {
+  color: inherit;
+}
+
+a {
+  margin: 100;
+  padding: 10;
+  text-align: left;
+
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+label {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+}
+
+body {
+  font: 16px/1.5 "Lato", sans-serif;
+}
+
+
+/* HEADER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  padding-top: 20px;
+  width: var(--page-header-width);
+  color: var(--page-header-txtColor);
+  background: var(--page-header-bgColor);
+}
+
+
+.page-header nav {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+
+/* PAGE CONTENT STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-content {
+  position: relative;
+  left: var(--page-header-width);
+  width: calc(100% - var(--page-header-width));
+  min-height: 100vh;
+  padding: 30px;
+  color: var(--page-content-txtColor);
+  background: var(--page-content-bgColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+  

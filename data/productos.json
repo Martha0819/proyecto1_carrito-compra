@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"pastel": "CARLOTA",
+		"imagen": "img/carlotaP.jpg",
+		"precio": "5000",
+		"detalles": ["exitencia : 2"]
+	},
+	{
+		"id": 2,
+		"pastel": "CARLOTA DE DURAZNO",
+		"imagen": "img/carlotaD.jpg",
+		"precio": "3000",
+		"detalles": ["exitencia : 5"]
+	},
+	{
+		"id": 3,
+		"pastel": "CARLOTA DE FRESA",
+		"imagen": "img/carlotaF.jpg",
+		"precio": "4000",
+		"detalles": ["exitencia : 1"]
+	},
+	{
+		"id": 4,
+		"pastel": "CHEESECAKE",
+		"imagen": "img/cheesecake.jpg",
+		"precio": "5900",
+		"detalles": ["exitencia : 10"]
+	},
+	{
+		"id": 5,
+		"pastel": "PASTEL DE FRESA",
+		"imagen": "img/pfresa.jpg",
+		"precio": "5769",
+		"detalles": ["exitencia : 7"]
+	},
+	{
+		"id": 6,
+		"pastel": "PASTEL DE CAPUCHINO",
+		"imagen": "img/pcapuchino.jpg",
+		"precio": "2599",
+		"detalles": ["exitencia : 4"]
+	},
+	{
+		"id": 7,
+		"pastel": "PAY DE QUESO",
+		"imagen": "img/pay.jpg",
+		"precio": "4299",
+		"detalles": ["exitencia : 15"]
+	},		
+	{
+		"id": 8,
+		"pastel": "FLAN NAPOLITANO",
+		"imagen": "img/flan.jpg",
+		"precio": "869",
+		"detalles": ["exitencia : 2"]
+	},
+	{
+		"id": 9,
+		"pastel": "TARTALETA",
+		"imagen": "img/tartaleta.jpg",
+		"precio": "5397",
+		"detalles": ["exitencia : 4"]
+	}
+]
